@@ -1,0 +1,319 @@
+/*!**********************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[12].use[0]!./src/App.vue?vue&type=style&index=0&id=7ba5bd90&lang=css ***!
+  \**********************************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap);
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[12].use[0]!./src/components/Nav.vue?vue&type=style&index=0&id=65af85a3&scoped=true&lang=css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+
+.main-nav[data-v-65af85a3]{
+        display: flex;
+        align-items:flex-end;
+        margin-bottom: 1.4rem;
+}
+.nav-list[data-v-65af85a3] {
+        display: flex;
+        width: 54.2rem;
+        justify-content: space-between;
+        align-items: center;
+}
+.nav-item[data-v-65af85a3] {
+        list-style-type: none;
+}
+.nav-link[data-v-65af85a3] {
+        font: 400 1.4rem 'Merriweather', serif;
+        text-decoration: none;
+        color: #343030;
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[12].use[0]!./src/components/Search.vue?vue&type=style&index=0&id=7cb41050&scoped=true&lang=css ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+
+.search-input[data-v-7cb41050]{
+        font: 400 1.4rem 'Merriweather', serif;
+        color:#343030;
+        padding: 1.3rem 1.6rem 1.4rem;
+        border: 1px solid #E1E1E1;
+        border-right: none;
+        width: 26rem;
+}
+.search-input[data-v-7cb41050]::placeholder{
+        color: #9F9F9F;
+}
+.search-input[data-v-7cb41050]:focus{
+        border: 1px solid #B5B5B5;
+        outline: none;
+}
+.search-btn[data-v-7cb41050]{
+        padding: 1.4rem 3.6rem;
+        padding-bottom: 1.5rem;
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[12].use[0]!./src/components/Header.vue?vue&type=style&index=0&id=61dd7a3d&scoped=true&lang=css ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+
+.header[data-v-61dd7a3d]{
+    flex: 0 0 auto;
+    border-bottom: 1px solid #E1E1E1;
+}
+.header-container[data-v-61dd7a3d] {    
+    display: flex;
+    justify-content: space-around;
+    padding: 2.4rem 0 2.4rem 8rem;
+    flex-wrap: wrap;
+}
+.header .main-nav[data-v-61dd7a3d]{
+    margin-right: 10rem;
+}
+    
+
+/*!**********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[12].use[0]!./src/components/Card.vue?vue&type=style&index=0&id=54cdc180&lang=css ***!
+  \**********************************************************************************************************************************************************************************************************************************************/
+
+.card-item{
+    margin: 0 3rem 3rem;
+    border: 1px solid #E1E1E1;
+}
+.card-img{
+    margin-bottom: 2rem;
+    cursor:pointer;
+}
+.card-title{
+    font: 400 1.8rem 'Merriweather', serif;
+    color:#343030;
+    padding-left: 2.4rem;
+    margin-bottom: 2.2rem;
+    line-height: 2.7rem;
+    cursor:pointer;
+}
+.buy-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    padding: 0 2.3rem 2.4rem;
+}
+.cost-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2.1rem;
+}
+.old-cost{
+    font:300 1.4rem 'Merriweather', serif;
+    color:#A0A0A0;
+    text-decoration: line-through;
+}
+.new-cost{
+    font:700 1.6rem 'Merriweather', serif;
+    color:#343030;
+}
+.buy-btn{
+    padding: 1.4rem 3rem 1.3rem 3.1rem;
+}
+.disable{
+    background-color:#C1B4B1;
+}
+.sold{
+    opacity:0.5;
+    pointer-events:none;
+}
+.sold-title{
+    font: 700 1.6rem 'Merriweather', serif;
+}
+.processed,
+.selected{
+    padding: 1.4rem 0 1.3rem;
+    width:11.8rem;
+    text-align: center;
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[12].use[0]!./src/components/Footer.vue?vue&type=style&index=0&id=40ab164b&scoped=true&lang=css ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+
+.footer[data-v-40ab164b]{
+    flex: 0 0 auto;
+    padding: 3.8rem 0 3.7rem;
+    background: #ECEAEA;
+}
+.footer-container[data-v-40ab164b]{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding-left: 10rem;
+}
+.contact-wrapper[data-v-40ab164b]{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 10rem;
+}
+.contact[data-v-40ab164b]{
+    display: flex;
+    margin-left: 5.1rem;
+}
+.contact-icon[data-v-40ab164b]{
+    width: 1.6rem;
+    margin-right: 0.8rem;
+}
+.contact-text[data-v-40ab164b]{
+    font: 400 1.4rem 'Merriweather', serif;
+    color:#555555;
+}
+@media (max-width:1485px) {
+.footer-container[data-v-40ab164b]{
+        justify-content: space-around;
+        padding-left: 0;
+}
+.contact-wrapper[data-v-40ab164b]{
+        margin-left: 0;
+}
+.contact[data-v-40ab164b]:first-child{
+        margin-left: 0;
+}
+}
+
+
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[12].use[0]!./src/components/Slider.vue?vue&type=style&index=0&id=2dedc691&scoped=true&lang=css ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+
+.popup-wrapper[data-v-2dedc691]{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.popup-img[data-v-2dedc691]{
+    max-width: 50vw;
+    min-width: 30vw;
+    max-height: 80vh;
+    margin: 0 auto;
+    height: auto;
+}
+.popup-btn[data-v-2dedc691]{
+    color:#343030;
+    border:none;
+    background: #ffffff;
+    font-size: 5rem;
+}
+.popup-btn[data-v-2dedc691]:hover{
+    color:#A0A0A0;
+    background: #ffffff;
+}
+.disable[data-v-2dedc691]{
+    opacity:0.5;
+    pointer-events:none;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[12].use[0]!./src/components/Popup.vue?vue&type=style&index=0&id=6be7b2a8&scoped=true&lang=css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+
+.popup-area[data-v-6be7b2a8] {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 100vh;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 2;
+}
+.popup[data-v-6be7b2a8] {
+        background: #fff;
+        border-radius: 8px;
+        padding: 2.5rem;
+        max-width: 90vw;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition:all 0.5s ease-out;
+}
+.popup-title[data-v-6be7b2a8]{
+        font: 700 1.8rem 'Merriweather', serif;
+        color:#343030;
+        margin-bottom: 1rem;
+}
+.popup-subscr[data-v-6be7b2a8]{
+        font: 400 1.5rem 'Merriweather', serif;
+        padding-bottom: 3rem;
+}
+.subscr-wrapper[data-v-6be7b2a8]{
+        padding: 0 2rem;
+}
+.new-cost[data-v-6be7b2a8]{
+        font-size: 3rem;
+        text-align: center;
+}
+.old-cost[data-v-6be7b2a8]{
+        text-align: center;
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[12].use[0]!./src/App.vue?vue&type=style&index=0&id=7ba5bd90&lang=css (1) ***!
+  \**************************************************************************************************************************************************************************************************************************************/
+
+.container,
+    .header-container,
+    .footer-container{
+        max-width: 122rem;
+        width: 80%;
+        margin: 0 auto;
+}
+.main{
+        padding-top: 4.8rem;
+        flex: 1 0 auto;
+}
+.main-title{
+        font: 700 2.4rem 'Merriweather', serif ;
+        color:#343030;
+        margin-bottom: 4rem;
+}
+.card-wrapper{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+}
+@media(max-width:1291px){
+.main-title{
+            text-align: center;
+}
+.card-wrapper{
+            justify-content: space-around;
+}
+}
+
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/style.css ***!
+  \*****************************************************************/
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+#app{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#app .popup-area{
+    position: fixed;
+}
+button{
+    background-color: #403432;        
+    color:#F4F6F9;
+    font: 700 1.4rem 'Merriweather', serif;
+    border:none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+button:hover{
+    background-color: #776763 ;
+}
+
