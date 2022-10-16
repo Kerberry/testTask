@@ -1,6 +1,6 @@
 <template>
     <div class="popup-wrapper">
-        <button class="popup-btn" :class="{disable:i===0}" @click="prevImg">&#8249;</button>
+        <button class="popup-btn" :class="{disable:i === 0}" @click="prevImg">&#8249;</button>
         <img :src="images[popupCard.id][i]" class="popup-img"/>
         <button class="popup-btn" :class="{disable:i === images[popupCard.id].length-1 }" @click="nextImg">&#8250;</button>
     </div>
@@ -34,15 +34,14 @@
                 img:'',
             }
         },
-        methods:{
-            prevImg(){
-                if(i>0){
-                    this.i-=1;
-                }
-
-            },
+        methods:{            
             nextImg(){
                 this.i+=1;
+                return(this.i)
+            },
+            prevImg(){
+                this.i-=1;
+                return(this.i)
             }
         }
     }
@@ -56,9 +55,7 @@
     margin-bottom: 1rem;
 }
 .popup-img{
-    max-width: 50vw;
-    min-width: 30vw;
-    max-height: 80vh;
+    max-height: 50vh;
     margin: 0 auto;
     height: auto;
 }

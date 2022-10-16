@@ -185,9 +185,7 @@
     margin-bottom: 1rem;
 }
 .popup-img[data-v-2dedc691]{
-    max-width: 50vw;
-    min-width: 30vw;
-    max-height: 80vh;
+    max-height: 50vh;
     margin: 0 auto;
     height: auto;
 }
@@ -224,7 +222,7 @@
         border-radius: 8px;
         padding: 2.5rem;
         max-width: 90vw;
-        height: auto;
+        max-height: 95vh;
         position: absolute;
         top: 50%;
         left: 50%;

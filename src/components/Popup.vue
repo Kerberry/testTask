@@ -57,7 +57,7 @@ import Slider from '../components/Slider.vue'
         border-radius: 8px;
         padding: 2.5rem;
         max-width: 90vw;
-        height: auto;
+        max-height: 95vh;
         position: absolute;
         top: 50%;
         left: 50%;
