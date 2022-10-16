@@ -1,14 +1,15 @@
 <template>
+    <Popup
+            :cards="cards" 
+            ref="popup"
+            :popupCard="popupCard"
+        />
     <Header 
         :cards="cards"  
         @filterCards="filterCards"      
     />
     <div class="main">
-        <Popup
-            :cards="cards" 
-            ref="popup"
-            :popupCard="popupCard"
-        />
+        
         <div class="container">
             <h1 class="main-title">Картины эпохи Возрождения</h1>
             <div class="card-wrapper">
@@ -46,11 +47,7 @@
                         name: "Рождение Венеры",
                         author: "Сандро Боттичелли",
                         img: require("./assets/img/painting1.png"),
-                        slider:[
-                            require("./assets/img/painting1.png"),
-                            require("./assets/img/painting11.png"),
-                            require("./assets/img/painting12.png"),
-                        ],
+                        subscr: "Картина итальянского художника тосканской школы Сандро Боттичелли. Представляет собой живопись темперой на холсте размером 172,5 × 278,5 см",           
                         oldCost: 2000000,
                         newCost: 1000000,
                         isSelected: false,
@@ -62,10 +59,7 @@
                         name: "Тайная вечеря",
                         author: "Леонардо да Винчи",
                         img: require("./assets/img/painting2.png"),
-                        slider:[
-                            require("./assets/img/painting2.png"),
-                            require("./assets/img/painting21.png"),
-                        ],
+                        subscr: "Монументальная роспись, работы Леонардо да Винчи, изображающая сцену последней трапезы Христа со своими учениками. Создана в 1495-1498 годы в доминиканском монастыре Санта-Мария-делле-Грацие в Милане.",
                         newCost: 3000000,
                         isSelected: false,
                         isProcessed: false,
@@ -76,11 +70,7 @@
                         name: "Сотворение Адама",
                         author: "Микеланджело",
                         img: require("./assets/img/painting3.png"),
-                        slider:{
-                            1: require("./assets/img/painting3.png"),
-                            2: require("./assets/img/painting31.png"),
-                            3: require("./assets/img/painting32.png"),
-                        },
+                        subscr: "Картина Микеланджело «Сотворение Адама» создана в 1511 году. Представлена история о наделении Богом жизнью первого мужчины — Адама. Жизненная искра передаётся от пальца Создателя к пальцу человека.",
                         oldCost: 6000000,
                         newCost: 5000000,
                         isSelected: true,
@@ -92,9 +82,7 @@
                         name: "Урок анатомии",
                         author: "Рембрандт",
                         img: require("./assets/img/painting4.png"),
-                        slider:[
-                            require("./assets/img/painting4.png"),
-                        ],
+                        subscr:'',
                         oldCost:6000000,
                         newCost:5000000,
                         isSelected: false,
@@ -133,6 +121,7 @@
             showPopup(id) {
                 this.$refs.popup.show = true;
                 this.popupCard = this.cards[id];
+                console.log(this.popupCard)
                 return this.popupCard;
             }
         }

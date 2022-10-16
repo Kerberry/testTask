@@ -1,9 +1,9 @@
 <template>
-  <di v-for="image in images[popupCard.id]">
-    <button @click="prev">&lt;</button>
-    <img :src="image" class="popup-img"/>
-    <button @click="next">&gt;</button>
-  </di>
+    <div class="popup-wrapper">
+        <button class="popup-btn" :class="{disable:i===0}" @click="prevImg">&#8249;</button>
+        <img :src="images[popupCard.id][i]" class="popup-img"/>
+        <button class="popup-btn" :class="{disable:i === images[popupCard.id].length-1 }" @click="nextImg">&#8250;</button>
+    </div>
 </template>
 
 <script>
@@ -31,19 +31,49 @@
                     ]
                 },
                 i:0,
-                
+                img:'',
             }
         },
-        computed:{
-            image: this.images[popupCard.id][0],
+        methods:{
+            prevImg(){
+                if(i>0){
+                    this.i-=1;
+                }
+
+            },
+            nextImg(){
+                this.i+=1;
+            }
         }
-        
     }
     
 </script>
 
-<style>
+<style scoped>
+.popup-wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
 .popup-img{
-    max-width: 90%;
+    max-width: 50vw;
+    min-width: 30vw;
+    max-height: 80vh;
+    margin: 0 auto;
+    height: auto;
+}
+.popup-btn{
+    color:#343030;
+    border:none;
+    background: #ffffff;
+    font-size: 5rem;
+}
+.popup-btn:hover{
+    color:#A0A0A0;
+    background: #ffffff;
+}
+.disable{
+    opacity:0.5;
+    pointer-events:none;
 }
 </style>

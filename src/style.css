@@ -12,6 +12,9 @@ html, body{
     flex-direction: column;
     height: 100%;
 }
+#app .popup-area{
+    position: fixed;
+}
 button{
     background-color: #403432;        
     color:#F4F6F9;
